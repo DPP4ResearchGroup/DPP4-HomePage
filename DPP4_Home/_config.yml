@@ -8,27 +8,66 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
+# Theme Settings
+theme			 : "minimal-mistakes-jekyll"
+minimal_mistakes_skin    : "mint" 	# "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+locale                   : "en-US"
+
+title			 : Dipeptidyl Dipeptidase - 4 (DPP4) and its Family  
+title_separator          : "-"
+subtitle                 : # site tagline that appears below site title in masthead
+
+name			 : "DPP4ResearchGroup"
+email			 : robert.qiao@flinders.edu.au
+description		 : >- # this means to ignore newlines until "baseurl:"
+  This is a communication channel for research conducted in understanding DPP4 family biochemical and physiological functions. 
+baseurl			 : "" # the subpath of your site, e.g. /blog
+url			 : "" # the base hostname & protocol for your site, e.g. http://example.com
+repository               : "DPP4ResearchGroup"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+
+comments:
+  provider               : "disqus"
+disqus:
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+
+# Social Sharing
+twitter:
+  username               : &twitter "robqiao"
+og_image                 : "site-logo.png" # Open Graph/Twitter default site image
+
+# Analytics
+analytics:
+  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          : "UA-2011187-3"
+
+github_username		 :  DPP4ResearchGroup
 
 # Build settings
-markdown: kramdown
-theme: minimal-mistakes-jekyll
-plugins:
+markdown		 : kramdown
+# Plugins
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
   - jekyll-feed
+  - jemoji
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -41,3 +80,37 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Outputting
+permalink: /:categories/:title/
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
+timezone: Australia/Adelaide  # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# Site Author
+author:
+  name             : *name
+  avatar           : ""
+  bio              : "Just another boring, time traveling, designer."
+  location         : "Adelaide, Australia"
+  email            :
+  uri              : ""
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
