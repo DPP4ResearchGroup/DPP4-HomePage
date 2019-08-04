@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "mint" 	# "default", "air", "aqua", "contrast", "dark
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-locale                   : "en-US"
+locale                   : "en-AU"
 
 title			 : Dipeptidyl Dipeptidase - 4 (DPP4) and its Family  
 title_separator          : "-"
@@ -25,8 +25,7 @@ subtitle                 : # site tagline that appears below site title in masth
 
 name			 : "DPP4ResearchGroup"
 email			 : robert.qiao@flinders.edu.au
-description		 : >- # this means to ignore newlines until "baseurl:"
-  This is a communication channel for research conducted in understanding DPP4 family biochemical and physiological functions. 
+description		 : This is a communication channel for research conducted in understanding DPP4 family biochemical and physiological functions. # >- # this means to ignore newlines until "baseurl:"
 baseurl			 : "" # the subpath of your site, e.g. /blog
 url			 : "" # the base hostname & protocol for your site, e.g. http://example.com
 repository               : "DPP4ResearchGroup"
@@ -37,7 +36,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 comments:
   provider               : "disqus"
 disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  shortname 	         : "https://dpp4home.disqus.com/admin" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
 
 # Social Sharing
 twitter:
@@ -48,14 +47,17 @@ og_image                 : "site-logo.png" # Open Graph/Twitter default site ima
 analytics:
   provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-2011187-3"
-
-github_username		 :  DPP4ResearchGroup
+    tracking_id          : "UA-121309374-2"
 
 # Build settings
 markdown		 : kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
 # Plugins
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -69,6 +71,63 @@ whitelist:
   - jekyll-feed
   - jemoji
 
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: Australia/Adelaide  # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -81,16 +140,32 @@ whitelist:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-# Outputting
-permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
-# paginate_path: /page:num/
-timezone: Australia/Adelaide  # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# Site Footer
+footer:
+  links:
+    - label	: "Twitter"
+      icon	: "fab fa-fw fa-twitter-square"
+      url	: "https://twitter.com/robqiao"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url:
+    - label     : "GitHub"
+      icon      : "fab fa-fw fa-github"
+      url	: "https://github.com/DPP4ResearchGroup"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      # url:
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      # url:
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url:# Outputting
 
 # Site Author
 author:
   name             : *name
-  avatar           : ""
+  avatar           : "assets/images/avator.jpg"
   bio              : "Just another boring, time traveling, designer."
   location         : "Adelaide, Australia"
   email            :
@@ -99,6 +174,26 @@ author:
   codepen          :
   dribbble         :
   flickr           :
+  email            :
+  links:
+    - label: "Email"
+      icon	: "fas fa-fw fa-envelope-square"
+      url	: mailto:*email
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      # url: "https://your-website.com"
+    - label	: "Twitter"
+      icon	: "fab fa-fw fa-twitter-square"
+      url	: "https://twitter.com/robqiao"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon	: "fab fa-fw fa-github"
+      url	: "https://github.com/robqiao"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
 
 # Defaults
 defaults:
@@ -113,4 +208,32 @@ defaults:
       comments: true
       share: true
       related: true
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
 
