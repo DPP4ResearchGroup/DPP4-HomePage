@@ -3,7 +3,7 @@ cache: bundler
 gemfile: DPP4_Home/Gemfile
 script:
   - cd DPP4_Home
-  - bundle exec jekyll
+  - bundle exec jekyll build 
 branches:
   only:
     # Change this to gh-pages if you're deploying using the gh-pages branch
