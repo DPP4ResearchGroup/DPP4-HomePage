@@ -10,3 +10,5 @@ branches:
     - develop
 rvm:
  - 2.5
+
+cache: bundler
