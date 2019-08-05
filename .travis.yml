@@ -4,6 +4,7 @@ gemfile: DPP4_Home/Gemfile
 script:
   - cd DPP4_Home
   - bundle exec jekyll build 
+  - bundle exec htmlproofer ./_site
 branches:
   only:
     # Change this to gh-pages if you're deploying using the gh-pages branch
@@ -12,4 +13,18 @@ branches:
 rvm:
  - 2.5
 
+env:
+  global: 
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+addons:
+  apt: 
+    packages:
+    - libcurl4-openssl-dev
+
+sudo: false
+  
 cache: bundler
+
+notifications:
+  email: false 
