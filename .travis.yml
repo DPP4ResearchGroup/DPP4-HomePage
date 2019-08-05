@@ -2,7 +2,7 @@ language: ruby
 cache: bundler
 gemfile: DPP4_Home/Gemfile
 script:
-  - bundle exec jekyll algolia --source DPP4_Home --destination DPP4_Home/_site --config DPP4_Home/_config.yml
+  - bundle exec jekyll --source DPP4_Home --destination DPP4_Home/_site --config DPP4_Home/_config.yml
 branches:
   only:
     # Change this to gh-pages if you're deploying using the gh-pages branch
