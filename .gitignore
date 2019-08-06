@@ -51,3 +51,4 @@ Gemfile.lock
 
 # ignore _site
 _site/
+.sass-cache/
