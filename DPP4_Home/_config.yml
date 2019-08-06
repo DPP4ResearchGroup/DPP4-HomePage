@@ -95,10 +95,6 @@ sass:
 # Reading Files
 include:
   - .htaccess
-<<<<<<< HEAD
-  - _sass
-=======
->>>>>>> parent of 286e75a... Revert "Merge pull request #2 from DPP4ResearchGroup/develop"
   - _posts
   - _pages
 exclude:
