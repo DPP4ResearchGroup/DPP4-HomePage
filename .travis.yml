@@ -24,7 +24,5 @@ addons:
 
 sudo: false
   
-cache: bundler
-
 notifications:
   email: false 
