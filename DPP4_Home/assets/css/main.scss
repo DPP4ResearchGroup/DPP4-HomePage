@@ -5,8 +5,5 @@
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-<<<<<<< HEAD
 @import "minimal-mistakes"; // main partials
-=======
 @import "minimal-mistakes"; // main partials
->>>>>>> parent of 286e75a... Revert "Merge pull request #2 from DPP4ResearchGroup/develop"
