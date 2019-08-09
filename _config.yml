@@ -9,7 +9,8 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Theme Settings
-theme			 	 : "minimal-mistakes-jekyll"
+theme				 : "minimal-mistakes-jekyll"
+# remote_theme			 : "mmistakes/minimal-mistakes-jekyll@4.13.0"
 minimal_mistakes_skin    	 : "mint" 	# "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site settings
