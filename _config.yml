@@ -99,7 +99,6 @@ sass:
 # Reading Files
 include:
   - .htaccess
-  - _sass
   - _posts
   - _pages
 exclude:
