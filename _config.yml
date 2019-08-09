@@ -27,9 +27,9 @@ subtitle                 : # site tagline that appears below site title in masth
 name			 : "DPP4ResearchGroup"
 email			 : robert.qiao@flinders.edu.au
 description		 : This is a communication channel for research conducted in understanding DPP4 family biochemical and physiological functions. # >- # this means to ignore newlines until "baseurl:"
-baseurl			 : "" # the subpath of your site, e.g. /blog
+baseurl			 : "/DPP4-HomePage" # the subpath of your site, e.g. /blog
 url			 : "" # the base hostname & protocol for your site, e.g. http://example.com
-repository               : "DPP4ResearchGroup"
+repository               : "DPP4-HomePage"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
