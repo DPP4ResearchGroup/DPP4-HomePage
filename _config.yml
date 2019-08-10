@@ -38,9 +38,9 @@ logo                     : # path of logo image to display in the masthead, e.g.
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 
 comments:
-  provider               : "disqus"
+  provider               : disqus
 disqus:
-  shortname 	         : "DPP4Home" # "https://dpp4home.disqus.com/admin" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  shortname 	         : DPP4Home # "https://dpp4home.disqus.com/admin" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
 
 # Social Sharing
 twitter:
