@@ -37,7 +37,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 comments:
   provider               : "disqus"
 disqus:
-  shortname 	         : "https://dpp4home.disqus.com/admin" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  shortname 	         : "dpp4home" # "https://dpp4home.disqus.com/admin" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
 
 # Social Sharing
 twitter:
