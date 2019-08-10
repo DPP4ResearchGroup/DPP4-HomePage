@@ -42,7 +42,10 @@ disqus:
 # Social Sharing
 twitter:
   username               : &twitter "robqiao"
+# linkedin:
+#  username		 : &linkedin "robqiao"
 og_image                 : # "site-logo.png" # Open Graph/Twitter default site image
+
 
 # Analytics
 analytics:
