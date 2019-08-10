@@ -8,6 +8,9 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
+# Environment setting 
+environment: production
+
 # Theme Settings
 theme				 : "minimal-mistakes-jekyll"
 # remote_theme			 : "mmistakes/minimal-mistakes-jekyll"  #@4.13.0"
