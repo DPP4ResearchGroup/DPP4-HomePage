@@ -24,8 +24,8 @@ title			 : Dipeptidyl Dipeptidase - 4 (DPP4) and its Family
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 
-name			 : "DPP4ResearchGroup"
-email			 : robert.qiao@flinders.edu.au
+# name			 : "DPP4ResearchGroup"
+# email			 : robert.qiao@flinders.edu.au
 description		 : This is a communication channel for research conducted in understanding DPP4 family biochemical and physiological functions. # >- # this means to ignore newlines until "baseurl:"
 baseurl			 : "/DPP4-HomePage" # the subpath of your site, e.g. /blog
 url			 : "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -155,7 +155,7 @@ footer:
 
 # Site Author
 author:
-  name             : *name
+  name             : "DPP4ResearchGroup @ Flinders University"
   avatar           : "assets/images/avator.jpg"
   bio              : "Just another boring, time traveling, designer."
   location         : "Adelaide, Australia"
@@ -169,7 +169,7 @@ author:
   links:
     - label: "Email"
       icon	: "fas fa-fw fa-envelope-square"
-      url	: mailto:*email
+      url	: mailto:robert.qiao@flinders.edu.au
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -181,7 +181,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon	: "fab fa-fw fa-github"
-      url	: "https://github.com/robqiao"
+      url	: "https://github.com/DPP4ResearchGroup"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
