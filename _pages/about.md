@@ -1,6 +1,6 @@
 ---
 title: "About"
-excerpt: "Minimal Mistakes"
+excerpt: "DPP4 Research @ Flinders University, Adelaide, Australia"
 permalink: /about/
 toc: true
 ---
