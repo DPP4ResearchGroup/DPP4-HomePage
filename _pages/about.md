@@ -1,9 +1,13 @@
 ---
-title: "About"
+title: "About Us"
 excerpt: "DPP4 Research @ Flinders University, Adelaide, Australia"
 permalink: /about/
 toc: true
 ---
+
+We are
+
+## Dipeptidyl peptidase - 4 (DPP4)
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
