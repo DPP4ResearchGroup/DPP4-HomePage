@@ -3,7 +3,7 @@
 robqiao:
   name        : "Robert QIAO"
   bio         : "What do you want, jewels? I am a very extravagant man."
-  avatar      : "/assets/images/avator.jpg"
+  avatar      : "/assets/images/avatar/avatar.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -14,5 +14,3 @@ robqiao:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/robqiao"
-
-
