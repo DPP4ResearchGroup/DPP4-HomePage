@@ -12,8 +12,8 @@
 environment			 : "production"
 
 # Theme Settings
-theme				 : "minimal-mistakes-jekyll"
-# remote_theme			 : "mmistakes/minimal-mistakes-jekyll"  #@4.13.0"
+theme				               : "minimal-mistakes-jekyll"
+# remote_theme			       : "mmistakes/minimal-mistakes-jekyll"  #@4.13.0"
 minimal_mistakes_skin    	 : "mint" 	# "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site settings
@@ -22,16 +22,15 @@ minimal_mistakes_skin    	 : "mint" 	# "default", "air", "aqua", "contrast", "da
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 locale                   : "en-AU"
-
-title			 : Dipeptidyl Dipeptidase - 4 (DPP4) and its Family
+title			               : Dipeptidyl Dipeptidase - 4 (DPP4) and its Family
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 
 # name			 : "DPP4ResearchGroup"
 # email			 : robert.qiao@flinders.edu.au
-description		 : This is a communication channel for research conducted in understanding DPP4 family biochemical and physiological functions. # >- # this means to ignore newlines until "baseurl:"
-baseurl			 : "/DPP4-HomePage" # the subpath of your site, e.g. /blog
-url			 : "https://dpp4researchgroup.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+description		           : This is a communication channel for research conducted in understanding DPP4 family biochemical and physiological functions. # >- # this means to ignore newlines until "baseurl:"
+baseurl			             : "/DPP4-HomePage" # the subpath of your site, e.g. /blog
+url			                 : "https://dpp4researchgroup.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository               : "DPP4ResearchGroup/DPP4-HomePage"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -92,11 +91,6 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: "/blog/page:num/"
-timezone: Australia/Adelaide  # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
@@ -105,8 +99,9 @@ sass:
 # Reading Files
 include:
   - .htaccess
-  - _posts
-  - _pages
+  # - _posts
+  # - _pages
+  # - _portfolio
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -166,7 +161,7 @@ author:
   bio              : "I hug myself, I regulate my citizen, I govern my state"
   location         : "Adelaide, Australia"
   email            :
-  uri              : 
+  uri              :
   bitbucket        :
   codepen          :
   dribbble         :
@@ -212,7 +207,20 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
 
+# Collections
+collections:
+   portfolio:
+    output: true
+    permalink: /:collection/:path/
 
 # Archives
 #  Type
@@ -243,3 +251,9 @@ tag_archive:
 #   permalinks:
 #     category: /categories/:name/
 #     tag: /tags/:name/
+
+# Outputting
+permalink: /:categories/:title/
+# paginate: 5 # amount of posts to show
+# paginate_path: "/blog/page:num/"
+timezone: Australia/Adelaide  # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
