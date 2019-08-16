@@ -1,6 +1,7 @@
 ---
 title: "Beautiful Flinders and Adelaide, Australia"
 excerpt: "Design Portfolio @Flinders, Adelaide, Australia"
+classes: wide
 header:
   image: /assets/images/flinders.jpg
   thumb: /assets/images/thumbnails/flinders-thumbnail.jpg  # size pixel 300*200
@@ -8,9 +9,9 @@ header:
   credit: Flinders University
   creditlink: https://www.flinders.edu.au
 sidebar:
-  - title: "Role"
-    image: http://placehold.it/350x250    # size pixel 350*250
-    image_alt: "logo"
+  - title: "The Photographer"
+    image: /assets/images/avatar/avatar-photographer.jpg    # size pixel 350*250
+    image_alt: "photographer"
     text: "Designer, Front-End Developer"
   - title: "Responsibilities"
     text: "Reuters try PR stupid commenters should isn't a business model"
@@ -27,4 +28,4 @@ gallery:
 ---
 
 
-{% include gallery caption="This is a sample gallery to go along with this case study." %}
+{% include gallery caption="This is a sample gallery of what Flinders and Adelaide look like." %}
