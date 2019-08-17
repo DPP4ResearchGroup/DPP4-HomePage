@@ -1,0 +1,16 @@
+# _posts or _pages authors, this is different from site author in _config.yml
+
+robqiao:
+  name        : "Robert QIAO"
+  bio         : "What do you want, jewels? I am a very extravagant man."
+  avatar      : "/assets/images/avatar/avatar.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:robert.qiao@flinders.edu.au"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      # url: "https://thewhip.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/robqiao"

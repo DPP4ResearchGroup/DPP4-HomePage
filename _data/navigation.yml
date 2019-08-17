@@ -4,11 +4,11 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Blogs"
     url: "/year-archive/"
-  - title: "Software Collections"
+  - title: "Software"
   #  url: /collection-archive/
   - title: "Publications"
   #  url: 
   # - title: "Sitemap"
   #  url: /sitemap/
-  - title: "About"
+  - title: "About Us"
     url: "/about/"
