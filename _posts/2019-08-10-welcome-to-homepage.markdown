@@ -1,25 +1,19 @@
 ---
 title:  "Welcome to DPP4 HomePage!"
 date:   2019-08-10 21:08:53 +0930
-layout: post
-categories: 
+layout: single
+categories:
   - Posts
   - Updates
+author: robqiao
 ---
 
-Welcome to our vitural laboritory.  
+Welcome to our virtual laboratory. We are fond of the diversity and complexity that DPP4 family proteases encapsulate, we hope you will find it also engaging, share your thoughts with us via [Twitter](https://twitter.com/{{ site.twitter.username }}) or join a conversation.   
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+We will periodically share and communicate some of our discoveries with you under [Blogs]({{ site.baseurl }}{% link _pages/year-archive.md %}), we may also share some of our personal stories along the way. Drop us a line or two if you find a story suits your taste, we will tailer our future stories to better engage with you.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+If you regard yourself as tech nerd as we do, you can find some of software we developed for our research and investigations under [Software]({{ site.baseurl }}). Software included here are all open source under `MIT` or `Apache2` licensing, please feel free to play with it yourself or share with others, if it turns out you work towards a same initiative, feel free to contribute and we will be happy to welcome you on board.
 
-Jekyll also offers powerful support for code snippets:
+If you are more scientific driven, under [Publications]({{ site.baseurl }}), we talk to you in a more scientific context. By the same token, we welcome comments and we would love to hear your thoughts.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
+We are happy you land our page and we welcome to come this journey with us. Without further do, Happy Reading. 
