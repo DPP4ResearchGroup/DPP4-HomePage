@@ -14,7 +14,7 @@ sidebar:
     image_alt: "photographer"
     text: "Designer, Front-End Developer"
   - title: "Responsibilities"
-    text: "Reuters try PR stupid commenters should isn't a business model"
+    text: "Register every heart touching moment"
 gallery:
   - url: /assets/images/flinders_autum.jpg
     image_path: assets/images/img-teaser/flinders_autum-tsr.jpg # image size pixel 600*400
