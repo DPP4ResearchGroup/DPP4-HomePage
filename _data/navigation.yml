@@ -5,9 +5,10 @@ main:
   - title: "Blogs"
     url: "/year-archive/"
   - title: "Software"
+    url: "/software/"
   #  url: /collection-archive/
   - title: "Publications"
-  #  url: 
+  #  url:
   # - title: "Sitemap"
   #  url: /sitemap/
   - title: "About Us"
