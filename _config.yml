@@ -180,17 +180,7 @@ defaults:
       layout: single
       author_profile: false
       share: true
-  # _software
-  - scope:
-      path: ""
-      type: software
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+
 
 # Reading Files
 include:
