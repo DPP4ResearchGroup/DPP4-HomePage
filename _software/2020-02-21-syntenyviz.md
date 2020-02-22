@@ -2,11 +2,10 @@
 title: "SyntenyViz: a R package to visualise Synteny"
 comments: true
 categories:
-  - Layout
-  - Uncategorized
+  - software
+  - updates
 tags:
-  - comments
-  - layout
+  - software
 author: robqiao
 ---
 
@@ -14,5 +13,8 @@ Visualising the synteny across species not only enables intuitive examination an
 
 Here we present a R package SyntenyViz to faciliate visualisation of synteny across various biological species. More detail please visit [SyntenyViz home page](https://dpp4researchgroup.github.io/SyntenyViz/).
 
-![Single Synteny Plot](/pics/Hsplot.png)
-![Multiple Synteny Conservation Plot](/pics/Msplot.png)
+![Single Synteny Plot]({{ site.baseurl }}/assets/images/plots/Hsplot.png) \\
+Figure 1: An example of a Single Synteny Plot
+
+![Multiple Synteny Conservation Plot]({{ site.baseurl }}/assets/images/plots/Msplot.png)\\
+Figure 2: An example of a Multiple Synteny Conservation Plot
