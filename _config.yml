@@ -197,6 +197,7 @@ include:
   - .htaccess
   - _posts
   - _pages
+  - _software
   # - _portfolio
 exclude:
   - "*.sublime-project"
@@ -233,6 +234,10 @@ collections:
    portfolio:
     output: true
     permalink: /:collection/:path/
+   software:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Archives
 #  Type

@@ -5,7 +5,7 @@ main:
   - title: "Blogs"
     url: "/year-archive/"
   - title: "Software"
-    url: "/software/"
+    url: "/software-archive/"
   #  url: /collection-archive/
   - title: "Publications"
   #  url:
