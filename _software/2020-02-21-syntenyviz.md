@@ -1,5 +1,5 @@
 ---
-title: "SyntenyViz: a R package to visualise Synteny"
+title: "SyntenyViz: an R package to visualise Synteny"
 comments: true
 categories:
   - software

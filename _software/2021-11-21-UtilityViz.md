@@ -1,5 +1,5 @@
 ---
-title: "UtilityViz: a R package to visualise and simulate future utility consumptions"
+title: "UtilityViz: an R package to visualise and simulate future utility consumptions"
 comments: true
 categories:
   - software

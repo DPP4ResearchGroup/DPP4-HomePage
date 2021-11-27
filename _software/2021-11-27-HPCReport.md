@@ -9,10 +9,11 @@ tags:
 author: robqiao
 ---
 
-Visualising the synteny across species not only enables intuitive examination and facilitates reconstruction effort of ancestral genomes, but also allow more direct interrogation of gene regulations and gene structures within a gene cluster.
+The storage stake is one significant piece of infrastructure in modern business operations. The cost associated with managing exploding data volume can not be underestimated in modern increasing data-driven decision models. \\
 
-Here we present a R package SyntenyViz to faciliate visualisation of synteny across various biological species. More detail please visit [SyntenyViz home page](https://dpp4researchgroup.github.io/SyntenyViz/).
+Here, we present an R package that enables future utilization modelling based on historical time-series data and further support the evidence-based procurement decision making process by simulating financial outcomes on various procurement strategies. In addition, the proposed workflow is further supported by visualizations and an easy-to-use dashboard framework. More detail please visit [UtilityViz home page](). \\
 
+## Includes examples here
 ![Single Synteny Plot]({{ site.baseurl }}/assets/images/plots/Hsplot.png) \\
 Figure 1: An example of a Single Synteny Plot
 
