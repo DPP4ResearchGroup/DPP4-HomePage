@@ -22,9 +22,9 @@ Figure 1: An example of a Single Synteny Plot
 Figure 2: An example of a Multiple Synteny Conservation Plot
 --->
 
-![An example of a historical data visulizaiton with UtilityViz dashboard. \label{dash-hist}](img/dash-hist.png) <!--- { width=80% } --> \\
+![An example of a historical data visulizaiton with UtilityViz dashboard.]({{ site.baseurl }}/assets/images/software/dash-hist.png) <!--- { width=80% } --> \\
 Figure 1: An example of a historical data visulizaiton with UtilityViz dashboard.
-![An example of a future demand forecast workflow with UtilityViz dashboard. \label{dash-pred}](img/dash-fore.png) <!--- { width=99% } ---> \\
+![An example of a future demand forecast workflow with UtilityViz dashboard.]({{ site.baseurl }}/assets/images/software/dash-fore.png) <!--- { width=99% } ---> \\
 Figure 2: An example of a future demand forecast workflow with UtilityViz dashboard. 
-![An example of a financial strategy simulation with UtilityViz dashboard. \label{dash-fin}](img/dash-fin.png) <!--- { width=80% } --> \\
+![An example of a financial strategy simulation with UtilityViz dashboard.]({{ site.baseurl }}/assets/images/software/dash-fin.png) <!--- { width=80% } --> \\
 Figure 3: An example of a financial strategy simulation with UtilityViz dashboard. 
