@@ -17,5 +17,5 @@ Here, we present an R package that enables future utilization modelling based on
 ![Single Synteny Plot]({{ site.baseurl }}/assets/images/plots/Hsplot.png) \\
 Figure 1: An example of a Single Synteny Plot
 
-[Multiple Synteny Conservation Plot]({{ site.baseurl }}/assets/images/plots/Msplot.png) \\
+![Multiple Synteny Conservation Plot]({{ site.baseurl }}/assets/images/plots/Msplot.png) \\
 Figure 2: An example of a Multiple Synteny Conservation Plot
