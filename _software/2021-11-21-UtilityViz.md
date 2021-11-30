@@ -14,8 +14,8 @@ The storage stake is one significant piece of infrastructure in modern business 
 Here, we present an R package that enables future utilization modelling based on historical time-series data and further support the evidence-based procurement decision making process by simulating financial outcomes on various procurement strategies. In addition, the proposed workflow is further supported by visualizations and an easy-to-use dashboard framework. More detail please visit [UtilityViz home page]().
 
 ## Includes examples here
-![Single Synteny Plot]({{ site.baseurl }}/assets/images/plots/Hsplot.png)
+![Single Synteny Plot]({{ site.baseurl }}/assets/images/plots/Hsplot.png) \\
 Figure 1: An example of a Single Synteny Plot
 
-![Multiple Synteny Conservation Plot]({{ site.baseurl }}/assets/images/plots/Msplot.png)
+[Multiple Synteny Conservation Plot]({{ site.baseurl }}/assets/images/plots/Msplot.png) \\
 Figure 2: An example of a Multiple Synteny Conservation Plot
