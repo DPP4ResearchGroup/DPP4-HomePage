@@ -9,9 +9,9 @@ tags:
 author: robqiao
 ---
 
-The storage stake is one significant piece of infrastructure in modern business operations. The cost associated with managing exploding data volume can not be underestimated in modern increasing data-driven decision models. \\
+There are considerable differences in communication styles and conventions between technical and managerial teams. Those differences are exaggerated in research institutions where the technical and managerial cultures are typically on the extreme ends of the spectrum. In the modern research environment, high-performance computer establishments are generally not only considered technological high ground but also often significant investments and valuable assets to the stack holders. However, keeping the policymakers and stakeholders to stay tuned with the conditions and issues of the ground operations remains a serious challenge. One of the major hurdles that result in this phenomenon is the lack of an apparatus to generate a consistent and easy to digest executive summary that is presented in a business context.
 
-Here, we present an R package that enables future utilization modelling based on historical time-series data and further support the evidence-based procurement decision making process by simulating financial outcomes on various procurement strategies. In addition, the proposed workflow is further supported by visualizations and an easy-to-use dashboard framework. More detail please visit [UtilityViz home page](). \\
+Here, we present a conda package `HPCReport` to address this difficulty in the managerial escalation chain. `HPCReport` not only provides a collection of summative functions and corresponding graphic capacities to allow easy construction of high-level communication but also engage a suite of machine learning-based algorithms to provide scenario analytic capacity. In summary, `HPCReport` aims to provide an integrated solution for researchers to better understand the cohort behaviours based on historical time series data and at the same time to facilitate the IT infrastructure administrators to implement evidence-based infrastructure management and planning. More detail please visit [HPCReport home page]().
 
 ## Includes examples here
 <!--- 
