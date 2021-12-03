@@ -3,6 +3,8 @@ title: "HPCReport: a HPC utility package to enable informative decision making"
 comments: true
 categories:
   - software
+  - HPC
+  - management
   - updates
 tags:
   - software
