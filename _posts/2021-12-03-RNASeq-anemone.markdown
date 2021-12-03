@@ -1,5 +1,5 @@
 ---
-title:  "RNAseq profiling revealed unique commensalism between anemone and anemonefish"
+title:  "RNAseq profiling reveals unique commensalism between sea anemone and anemonefish"
 date:   2021-12-03 16:08:53 +0930
 layout: single
 categories:

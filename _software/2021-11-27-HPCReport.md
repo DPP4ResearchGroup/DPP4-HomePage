@@ -8,6 +8,7 @@ categories:
   - updates
 tags:
   - software
+  - HPC
 author: robqiao
 ---
 
