@@ -14,4 +14,6 @@ The latestest stats on the open source projects have expanded over 150 millions 
 
 Scientific software is generally managed sparsely and consequently many dependencies are not fully consolidated. The frustrating experinece of expecting a productive day on scientific progression only replaced by the endless pain and curse to make your software working is shared by many researchers. 
 
-We are happy you land our page and we welcome to come this journey with us. Without further do, Happy Reading. 
+Two open source projects have standed out in improving the reproducibility and streamlining the installation of a large stack of open source scientific software.   
+
+We are happy you land our page and we welcome you to come this journey with us. Without further do, Happy Reading. 
