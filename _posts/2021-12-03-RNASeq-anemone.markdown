@@ -19,4 +19,7 @@ If you regard yourself as tech nerd as we do, you can find some of software we d
 
 If you are more scientific driven, under [Publications]({{ site.baseurl }}), we talk to you in a more scientific context. By the same token, we welcome comments and we would love to hear your thoughts.
 
+
+To be continued ...
+
 We are happy you land our page and we welcome to come this journey with us. Without further do, Happy Reading. 
