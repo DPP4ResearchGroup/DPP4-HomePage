@@ -8,7 +8,7 @@ categories:
   - Evolution
   - Science
   - Updates
-author: robqiao
+author: cassiehoepner
 ---
 
 Welcome to our virtual laboratory. We are fond of the diversity and complexity that DPP4 family proteases encapsulate, we hope you will find it also engaging, share your thoughts with us via [Twitter](https://twitter.com/{{ site.twitter.username }}) or join a conversation.   

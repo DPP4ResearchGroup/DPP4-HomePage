@@ -6,11 +6,20 @@ robqiao:
   avatar      : "/assets/images/avatar/avatar.jpg"
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:robert.qiao@flinders.edu.au"
+      icon:  "fas fa-fw fa-envelope-square"
+      url:   "mailto:robert.qiao@flinders.edu.au"
     - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://thewhip.com"
+      icon:  "fas fa-fw fa-link"
+      url:   "https://manifestoso.page.link/main"
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/robqiao"
+      icon:  "fab fa-fw fa-twitter-square"
+      url:   "https://twitter.com/robqiao"
+
+cassiehoepner:
+  name        : "Cassie Hoepner"
+  bio         : "Fish? I am a colourful Nemo."
+  avatar      : "/assets/images/avatar/avatar-nemo.jpg"
+    links:
+    - label: "Email"
+      icon:  "fas fa-fw fa-envelope-square"
+      url:   "mailto:cassie.hoepner@flinders.edu.au"
