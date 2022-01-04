@@ -7,17 +7,17 @@ categories:
 author: robqiao
 ---
 
-For better or worse, 2021 is destinated to be in the history book.   
+For better or worse, 2021 is destined to be a hard-to-forget year in the history book. We experienced    
 
-We would like to take this oppotunity to wish everyone a warm happy new year and a productive 2022. In the new year, DPP4 research group is packed with actions and some of projects include: 
+We would like to take this opportunity to wish everyone a warm happy new year and a productive 2022. In the new year, DPP4 research group is packed with actions and some of the projects include: 
 
-1. Mutualism between sea anemone and clownfish
-1. DPP4 substrate atles
+1. Mutualism between sea anemones and clownfish
+1. DPP4 substrate atlas
 
-In addition, following software releases were also planned at this stage:
+In addition, the following software releases were also planned at this stage:
 
 1. Reporting Utilities for HPC facilities
-1. Financial Utilities for Forward Planning
+1. Financial Utilities for forwarding Planning
 1. SyntenyViz
 
 To be continued ...

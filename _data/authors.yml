@@ -19,7 +19,7 @@ cassiehoepner:
   name        : "Cassie Hoepner"
   bio         : "Fish? I am a colourful Nemo."
   avatar      : "/assets/images/avatar/avatar-nemo.jpg"
-    links:
+  links:
     - label: "Email"
       icon:  "fas fa-fw fa-envelope-square"
       url:   "mailto:cassie.hoepner@flinders.edu.au"
