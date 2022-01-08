@@ -26,7 +26,7 @@ title			               : Dipeptidyl Dipeptidase - 4 (DPP4) and its Family
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 
-# name			             : "DPP4ResearchGroup"
+name  			             : "DPP4ResearchGroup"
 # email			             : robert.qiao@flinders.edu.au
 description		           : This is a communication channel for research conducted in understanding DPP4 family biochemical and physiological functions. # >- # this means to ignore newlines until "baseurl:"
 baseurl			             : "/DPP4-HomePage" # the subpath of your site, e.g. /blog
@@ -51,7 +51,7 @@ og_image                 : # "site-logo.png" # Open Graph/Twitter default site i
 
 # Analytics
 analytics:
-  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id          : "UA-121309374-2"
 
