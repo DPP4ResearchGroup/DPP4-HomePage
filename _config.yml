@@ -40,8 +40,11 @@ search                   : true
 search_full_content      : true
 search_provider          : google
 google:
-  search_only_api_key    : "AIzaSyCb4A8-OWgK5dgDZaigWEXbEDibTK7LAXk"
+  search_only_api_key    : "AIzaSyCh9TSMwYmZn2Vbrn9gBatCHS2qBjYd7YQ"
   search_engine_id       : "f95a5bae1955b6a9a" # YOUR_SEARCH_ENGINE_ID
+
+# SEO Related
+google_site_verification : "N0M_UxCnazNvYeC0z-oFuiTe_HoofnAR1J2bz9U0q80" # Replace this with your ID, or delete
 
 comments:
   provider               : "disqus"
