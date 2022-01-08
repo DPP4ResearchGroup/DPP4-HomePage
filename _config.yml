@@ -35,6 +35,8 @@ repository               : "DPP4ResearchGroup/DPP4-HomePage"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "assets/images/thumbnails/logo-tn.png"  # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+google:
+  search_engine_id       : "f95a5bae1955b6a9a" # YOUR_SEARCH_ENGINE_ID
 
 comments:
   provider               : "disqus"
@@ -231,10 +233,13 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Collections
 collections:
-   portfolio:
+  portfolio:
     output: true
     permalink: /:collection/:path/
-   software:
+  software:
+    output: true
+    permalink: /:collection/:path/
+  publications:
     output: true
     permalink: /:collection/:path/
 
@@ -271,6 +276,6 @@ tag_archive:
 
 # Outputting
 permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
+paginate: 15 # amount of posts to show
 # paginate_path: "/blog/page:num/"
 timezone: Australia/Adelaide  # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
