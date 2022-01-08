@@ -36,7 +36,7 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 logo                     : "assets/images/thumbnails/logo-tn.png"  # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 google:
-  search_engine_id       : "f95a5bae1955b6a9a" # YOUR_SEARCH_ENGINE_ID
+  search_engine_id       : # "f95a5bae1955b6a9a" # YOUR_SEARCH_ENGINE_ID
 
 comments:
   provider               : "disqus"
