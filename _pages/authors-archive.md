@@ -1,9 +1,10 @@
 ---
-title: {{ site.author.name }}
+title: !site.author.name!
+excerpt: !site.author.bio!
 layout: splash
 permalink: /authors-list/
 date: 2022-01-09T11:48:41+09:30
-excerpt: {{ site.author.bio }}
+last_modified_at: 2022-01-10T09:40:41+09:30
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -55,6 +56,9 @@ feature_row4:
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
+
+{{ page.title | replace: '!site.author.name!', site.author.name }}
+{{ page.excerpt | replace: '!site.author.bio!', site.author.bio }}
 
 {% include feature_row id="intro" type="center" %}
 
