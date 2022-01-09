@@ -10,8 +10,8 @@ header:
   actions:
     - label: "Terms and Conditions"
       url: "/terms/"
-  caption: "Photo credit: [**R.QIAO**](dpp4research.page.link/home)"
-excerpt: {{ site.author.bio }}
+  caption: "Photo credit: [**R.QIAO**](https://dpp4research.page.link/home)"
+excerpt: {{ site.author.location }}
 intro: 
   - excerpt: 'We are a group of enthusiastic scientists and our researches focus on better understanding DPP4.'
 feature_row:
