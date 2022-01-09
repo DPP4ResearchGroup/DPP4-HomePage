@@ -15,7 +15,7 @@ excerpt: {{ site.author.bio }}
 intro: 
   - excerpt: 'We are a group of enthusiastic scientists and our researches focus on better understanding DPP4.'
 feature_row:
-  - {% authors %}
+  - {% include authors.yml %}
 feature_row2:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
