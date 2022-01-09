@@ -6,7 +6,7 @@ date: 2022-01-09T11:48:41+09:30
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/avatar-DPP4.png
+  overlay_image: /assets/images/avatar/avatar-DPP4.png
   actions:
     - label: "Terms and Conditions"
       url: "/terms/"
