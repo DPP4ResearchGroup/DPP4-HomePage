@@ -11,7 +11,7 @@ header:
     - label: "Terms and Conditions"
       url: "/terms/"
   caption: "Photo credit: [**R.QIAO**](https://dpp4research.page.link/home)"
-excerpt: {{ site.author.location }}
+excerpt: {{ site.author.name }}
 intro: 
   - excerpt: 'We are a group of enthusiastic scientists and our researches focus on better understanding DPP4.'
 feature_row:
