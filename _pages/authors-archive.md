@@ -3,6 +3,7 @@ title: {{ site.author.name }}
 layout: splash
 permalink: /authors-list/
 date: 2022-01-09T11:48:41+09:30
+excerpt: {{ site.author.bio }}
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -11,7 +12,6 @@ header:
     - label: "Terms and Conditions"
       url: "/terms/"
   caption: "Photo credit: [**R.QIAO**](https://dpp4research.page.link/home)"
-excerpt: {{ site.author.name }}
 intro: 
   - excerpt: 'We are a group of enthusiastic scientists and our researches focus on better understanding DPP4.'
 feature_row:
