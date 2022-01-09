@@ -6,11 +6,11 @@ date: 2022-01-09T11:48:41+09:30
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/unsplash-image-1.jpg
+  overlay_image: /assets/images/avatar-DPP4.png
   actions:
     - label: "Terms and Conditions"
       url: "/terms/"
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  caption: "Photo credit: [**R.QIAO**](dpp4research.page.link/home)"
 excerpt: {{ site.author.bio }}
 intro: 
   - excerpt: 'We are a group of enthusiastic scientists and our researches focus on better understanding DPP4.'
