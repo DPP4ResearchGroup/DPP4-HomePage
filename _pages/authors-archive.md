@@ -32,8 +32,7 @@ authors_past: "robqiao"
 
 --> 
 
-{% assign author = authors_current %}
-{{ author | inspect }}
+{% capture page.author %} {{ page[authors_current] }} {% endcapture %}
 {% include author-profile.html type="right" %}
 
 
