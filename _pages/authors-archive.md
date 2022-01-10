@@ -57,8 +57,8 @@ feature_row4:
     btn_class: "btn--primary"
 ---
 
-{{ page.title | replace: '!site.author.name!', site.author.name }}
-{{ page.excerpt | replace: '!site.author.bio!', site.author.bio }}
+{{ page.title | replace: '!site.author.name!', site.title }}
+{{ page.excerpt | replace: '!site.author.bio!', site.description }}
 
 {% include feature_row id="intro" type="center" %}
 
