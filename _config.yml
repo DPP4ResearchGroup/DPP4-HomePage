@@ -70,6 +70,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - liquify
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -79,6 +80,8 @@ whitelist:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - liquify
+
 
 # Markdown Processing
 kramdown:
