@@ -15,10 +15,8 @@ header:
   caption: "Photo credit: [**R.QIAO**](https://dpp4research.page.link/home)"
 intro: 
   - excerpt: 'We are a group of enthusiastic scientists and our researches focus on better understanding DPP4, here are some of us.'
-authors_current:
-  - robqiao
-authors_past:
-  - robqiao
+authors_current: robqiao
+authors_past: robqiao
 ---
 
 
@@ -34,7 +32,7 @@ authors_past:
 
 --> 
 
-{% assign author = page[authors_current] %}
+{% assign author = authors_current %}
 {{ author | inspect }}
 {% include author-profile.html type="right" %}
 
