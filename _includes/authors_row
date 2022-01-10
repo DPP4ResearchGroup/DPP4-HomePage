@@ -1,11 +1,12 @@
 {% if include.id %}
-  {% assign authors_row = site.data.authors[page[include.id]] %}
+  {% assign authors_row = page[include.id] %}
 {% else %}
   {% assign authors_row = site.data.authors %}
 {% endif %}
 
 {{ site.data.authors[page[include.id]] }}
-{{ site.data.authors}}
+{{ page[include.id] }}
+{{ site.data.authors }}
 
 <div class="authors__wrapper">
 
