@@ -6,6 +6,7 @@
 <div class="authors__wrapper{% if include.type %}--{{ include.type }}{% endif %}">
   {% for author in authors_row %}
       {{ author | inspect }}
+      {{ author | json }}
       {% capture page.author %} {{ author }} {% endcapture %}
       {% include author-profile.html %}
   {% endfor %}
