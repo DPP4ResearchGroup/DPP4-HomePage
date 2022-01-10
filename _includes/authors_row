@@ -4,6 +4,9 @@
   {% assign authors_row = site.data.authors %}
 {% endif %}
 
+{{ site.data.authors[page[include.id]] }}
+{{ site.data.authors}}
+
 <div class="authors__wrapper">
 
   {% for author in authors_row %}

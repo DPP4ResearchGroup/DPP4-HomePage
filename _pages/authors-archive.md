@@ -27,11 +27,16 @@ authors_past:
 {{ page.title | liquify }}
 {{ site.author.bio}}
 
+<!--
 {% for author in page.authors_current %}
      -- {{ site.data.authors[author].name }}
 {% endfor %}
 
+--> 
+
+<!--
 {% include author-profile.html type="right" %}
+-->
 
 {% include authors_row id="authors_current" type="left" %}
 
