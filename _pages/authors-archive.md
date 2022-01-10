@@ -24,19 +24,19 @@ authors_past:
 
 {% include feature_row id="intro" type="center" %}
 
+<!--
 {{ page.title | liquify }}
 {{ site.author.bio}}
 
-<!--
 {% for author in page.authors_current %}
      -- {{ site.data.authors[author].name }}
 {% endfor %}
 
 --> 
 
-<!--
+{% assign author = authors_current[0] %}
 {% include author-profile.html type="right" %}
--->
+
 
 {% include authors_row id="authors_current" type="left" %}
 
