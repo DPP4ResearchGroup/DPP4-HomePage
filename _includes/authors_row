@@ -1,0 +1,15 @@
+{% if include.id %}
+  {% assign authors_row = site.data.authors[page[include.id]] %}
+{% else %}
+  {% assign authors_row = site.data.authors %}
+{% endif %}
+
+<div class="authors__wrapper">
+
+  {% for author in authors_row %}
+    <div class="author_feature__item{% if include.type %}--{{ include.type }}{% endif %}">
+      {% include author-profile.html %}
+    </div>
+  {% endfor %}
+
+</div>

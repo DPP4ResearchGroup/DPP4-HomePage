@@ -31,6 +31,8 @@ authors_past:
      -- {{ site.data.authors[author].name }}
 {% endfor %}
 
-{% include feature_row id="feature_row4" type="center" %}
+{% include author-profile.html type="right" %}
 
-{% include author-profile.html type="center" %} 
+{% include authors_row id="authors_current" type="left" %}
+
+{% include authors_row id="authors_past" %}
