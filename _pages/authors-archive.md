@@ -64,7 +64,7 @@ feature_row4:
 {{ site.author.bio}}
 
 {% for author in site.data.authors %}
-    {{ author.name }} -- {{ author.bio }}
+     -- {{ author }}
 {% endfor %}
 
 {% include feature_row id="feature_row4" type="center" %}
