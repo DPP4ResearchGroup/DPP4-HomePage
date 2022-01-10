@@ -62,3 +62,5 @@ feature_row4:
 
 
 {% include feature_row id="feature_row4" type="center" %}
+
+{% include author-profile %}
