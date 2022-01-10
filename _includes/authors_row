@@ -7,7 +7,8 @@
 
   {% for author in authors_row %}
     <div class="author_feature__item{% if include.type %}--{{ include.type }}{% endif %}">
-      {% include author-profile.html page.author = author %}
+      {% capture page.author %} {{ author }} {% endcapture %}
+      {% include author-profile.html %}
     </div>
   {% endfor %}
 
