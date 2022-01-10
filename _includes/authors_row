@@ -12,6 +12,7 @@
 
   {% for author in authors_row %}
     <div class="author_feature__item{% if include.type %}--{{ include.type }}{% endif %}">
+      {% assign page.author = author %}
       {% include author-profile.html %}
     </div>
   {% endfor %}
