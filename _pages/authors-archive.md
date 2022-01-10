@@ -1,6 +1,6 @@
 ---
-title: {{ site.author.name }}
-excerpt: {{ site.author.bio }}
+title: "{{ site.author.name }}"
+excerpt: "{{ site.author.bio }}"
 layout: splash-1
 permalink: /authors-list/
 date: 2022-01-09T11:48:41+09:30
