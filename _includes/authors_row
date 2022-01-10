@@ -1,7 +1,5 @@
 {% if include.id %}
   {% assign authors_row = page[include.id] %}
-{% else %}
-  {% assign authors_row = site.data.authors %}
 {% endif %}
 
 
@@ -9,9 +7,7 @@
 
   {% for author in authors_row %}
     <div class="author_feature__item{% if include.type %}--{{ include.type }}{% endif %}">
-      {% assign page.author = author %}
-      {{ page.author | inpsect }}
-      {% include author-profile.html %}
+      {% include author-profile.html page.author = author %}
     </div>
   {% endfor %}
 
