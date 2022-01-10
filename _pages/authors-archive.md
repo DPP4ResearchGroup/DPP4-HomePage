@@ -63,7 +63,7 @@ feature_row4:
 {{ page.title | liquify }}
 {{ site.author.bio}}
 
-{% for author in site.data.authors %}
+{% for author in site.data.authors[author] %}
     {{ author.name }} -- {{ author.email }}
 {% endfor %}
 
