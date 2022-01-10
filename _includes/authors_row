@@ -5,7 +5,7 @@
 {% endif %}
 
 {{ site.data.authors[page[include.id]] }}
-{{ page[include.id] }}
+{{ authors_row | inspect }}
 {{ site.data.authors }}
 
 <div class="authors__wrapper">
