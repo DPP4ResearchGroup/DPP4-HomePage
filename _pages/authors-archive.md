@@ -34,7 +34,7 @@ authors_past:
 
 --> 
 
-{% assign author = authors_current[0] %}
+{% assign author = page[authors_current] %}
 {{ author | inspect }}
 {% include author-profile.html type="right" %}
 
