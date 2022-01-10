@@ -1,7 +1,7 @@
 ---
 title: '!site.author.name!'
 excerpt: '!site.author.bio!'
-layout: splash
+layout: splash-1
 permalink: /authors-list/
 date: 2022-01-09T11:48:41+09:30
 last_modified_at: 2022-01-10T09:40:41+09:30
@@ -57,8 +57,6 @@ feature_row4:
     btn_class: "btn--primary"
 ---
 
-{{ page.title | replace: '!site.author.name!', site.title }}
-{{ page.excerpt | replace: '!site.author.bio!', site.description }}
 
 {% include feature_row id="intro" type="center" %}
 
