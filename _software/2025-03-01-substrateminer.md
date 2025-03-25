@@ -1,5 +1,5 @@
 ---
-title: "SyntenyViz: an R package to visualise Synteny"
+title: "substrateminer: A python package to discover enzyme substrates based on sequence consensus"
 comments: true
 categories:
   - software
